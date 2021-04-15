@@ -1,0 +1,23 @@
+{
+  "name": "first-ever-tailwind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "postcss ./css/tailwind.css -o ./css/main.css --watch",
+    "build": "postcss ./css/tailwind.css -o ./css/main.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tailwindcss/forms": "^0.3.2",
+    "postcss-cli": "^8.3.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.9",
+    "tailwindcss": "^2.0.4"
+  }
+}

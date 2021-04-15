@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,100;1,300;1,700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.btn-cover {
+    @apply px-4 py-3 mx-4 w-44 h-12 bg-white rounded-sm text-center;
+}
+
+.btn-cover-reverse {
+    @apply px-4 py-3 mx-4 w-44 h-12 bg-white-reverse rounded-sm text-center;
+}
+
+.tab {
+    @apply mx-16 py-2;
+}
+
+.one-three-column {
+    @apply gap-1 rounded-sm;    
+}
+
+.classic {
+    @apply font-roboto uppercase text-xl;    
+}
